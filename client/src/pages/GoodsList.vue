@@ -6,7 +6,7 @@
       <div class="accessory-result-page accessory-page">
         <div class="container">
           <div class="filter-nav">
-            <span class="sortby">排序:</span>
+            <span class="sortby">排序1:</span>
             <a href="javascript:void(0)" class="default cur">默认</a>
             <a href="javascript:void(0)" class="price" v-bind:class="{'sort-up':sortFlag}" @click="sortGoods()">价格 <svg class="icon icon-arrow-short"><use xlink:href="#icon-arrow-short"></use></svg></a>
             <a href="javascript:void(0)" class="filterby stopPop" @click.stop="showFilterPop">Filter by</a>
